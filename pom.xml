@@ -23,13 +23,12 @@ under the License.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-parent</artifactId>
-    <version>16</version>
-    <relativePath>../../pom/maven/pom.xml</relativePath>
+    <groupId>org.fusesource</groupId>
+    <artifactId>fusesource-pom</artifactId>
+    <version>1.0</version>
   </parent>
 
-  <groupId>org.apache.maven.doxia</groupId>
+  <groupId>org.fusesource.maven.doxia</groupId>
   <artifactId>doxia-tools</artifactId>
   <version>1.2-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -93,23 +92,19 @@ under the License.
   </modules>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/trunk</developerConnection>
-    <url>http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia-tools/trunk</url>
+    <connection>scm:git:git://github.com/jstrachan/doxia-tools.git</connection>
+    <!-- Work around for issue: http://jira.codehaus.org/browse/SCM-444 -->
+    <developerConnection>${release-altGitURL}</developerConnection>
+    <url>http://github.com/jstrachan/doxia-tools/tree/master</url>
   </scm>
   <issueManagement>
     <system>jira</system>
     <url>http://jira.codehaus.org/browse/DOXIA</url>
   </issueManagement>
-  <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scp://people.apache.org/www/maven.apache.org/doxia/doxia-tools</url>
-    </site>
-  </distributionManagement>
 
   <properties>
     <projectVersion>${project.version}</projectVersion>
+    <forge-project-id>maven</forge-project-id>
   </properties>
 
   <dependencyManagement>

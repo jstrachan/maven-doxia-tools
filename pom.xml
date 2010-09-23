@@ -30,7 +30,7 @@ under the License.
 
   <groupId>org.fusesource.maven.doxia</groupId>
   <artifactId>doxia-tools</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <packaging>pom</packaging>
 
   <name>Doxia Tools</name>

@@ -122,6 +122,9 @@ class LinkMatcher
             // continue;
             // }
 
+
+            // TODO lets convert any HTML escaped links such as containing &#95; into _
+            link = link.replaceAll("&#95;", "_");
             LINK_LIST.add( link );
         }
 

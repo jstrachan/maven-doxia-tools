@@ -93,10 +93,10 @@ under the License.
 
   <scm>
     <connection>scm:git:git://github.com/jstrachan/doxia-tools.git</connection>
-<!--
     <developerConnection>scm:git:ssh://git@github.com:jstrachan/doxia-tools.git</developerConnection>
--->
+<!--
     <developerConnection>${release-altGitURL}</developerConnection>
+-->
     <url>http://github.com/jstrachan/doxia-tools/tree/master</url>
   </scm>
   <issueManagement>

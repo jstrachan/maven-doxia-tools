@@ -93,7 +93,7 @@ under the License.
 
   <scm>
     <connection>scm:git:git://github.com/jstrachan/doxia-tools.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:jstrachan/doxia-tools.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:jstrachan/doxia-tools.git</developerConnection>
 <!--
     <developerConnection>${release-altGitURL}</developerConnection>
 -->
@@ -149,6 +149,7 @@ under the License.
             <pushChanges>false</pushChanges>
             <autoVersionSubmodules>true</autoVersionSubmodules>
             <allowTimestampedSnapshots>false</allowTimestampedSnapshots>
+            <arguments>-Prelease</arguments>
             <!--
             <tagBase>https://svn.apache.org/repos/asf/maven/doxia/doxia-tools/tags</tagBase>
             -->

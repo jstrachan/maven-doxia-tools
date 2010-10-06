@@ -93,7 +93,7 @@ under the License.
 
   <scm>
     <connection>scm:git:git://github.com/jstrachan/doxia-tools.git</connection>
-    <developerConnection>scm:git:git@github.com:jstrachan/doxia-tools.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:jstrachan/maven-doxia-tools.git</developerConnection>
 <!--
     <developerConnection>${release-altGitURL}</developerConnection>
 -->

@@ -93,7 +93,10 @@ under the License.
 
   <scm>
     <connection>scm:git:git://github.com/jstrachan/doxia-tools.git</connection>
-    <!-- TODO - hack this in your ~/.m2/settings.xml to point to your local checkout for releases -->
+    <!-- 
+    TODO - hack this in your ~/.m2/settings.xml to point to your local checkout for releases 
+    see comments here: http://jira.codehaus.org/browse/MRELEASE-605
+    -->
     <developerConnection>${release-altGitURL}</developerConnection>
     <url>http://github.com/jstrachan/doxia-tools/tree/master</url>
   </scm>
